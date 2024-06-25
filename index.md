@@ -2,9 +2,13 @@
 layout: homepage
 ---
 
+# Notice
+
+This website is under development. Most of the currently present information might be misleading.
+
 ## About Me
 
-I am a Ph.D. student at ...
+I am an undergraduate student at Seoul National University.
 
 ## Research Interests
 
