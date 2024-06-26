@@ -225,9 +225,15 @@ papertitle {
       width: 8.00em;
     }
 
-h3, h4, h5, h6 {
+h3, h4 {
   font-weight: 600;
   color:#043361;
+  margin:0 0 20px;
+}
+
+h5, h6 {
+  font-weight: 600;
+  color: #010d18;
   margin:0 0 20px;
 }
 
@@ -245,12 +251,12 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-  h1, h3, h4, h5, h6 {
+  h1, h2, h3, h4 {
     color:rgb(62, 183, 240);
   }
 
-  h2 {
-    color:rgb(62, 183, 240);
+  h5, h6 {
+    color: rgb(217, 228, 232);
   }
 }
 
@@ -259,7 +265,7 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height:1.5;
 }
 
 h1 {
@@ -267,7 +273,7 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color: #ce5701;
   text-decoration:none;
 }
 
@@ -277,7 +283,7 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   a {
-    color:rgb(62, 183, 240);
+    color: rgb(220, 178, 125);
   }
 }
 
