@@ -60,5 +60,5 @@ asset exchange Upbit.
 ---
 
 ## Test Scores
-- TOEFL: TBD (Jun. 2024)
+- TOEFL: 102 (Jun. 2024)
 - TEPS: 474 (Mar. 2024)
