@@ -5,7 +5,7 @@
 <h5 style="margin:0 10px 0;">Advisor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU</h5>
 
 <ul style="margin:0 0 5px;">
-  <li>(To-be) Performing research on the Knowledge Conflict of LLMs</li>
+  <li>Performing research on language models' behaviors in knowledge conflicting conditions</li>
 </ul>
 
 <br>
