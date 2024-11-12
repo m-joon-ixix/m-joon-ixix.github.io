@@ -7,8 +7,9 @@ layout: homepage
 Nice to meet you! I am Minjoon (Miles) Choi, a senior undergraduate student majoring Computer Science & Engineering at Seoul
 National University.
 <br/><br/>
-I am interested in and performing research on the behavior of language models, especially when facing external knowledge
-that conflicts with their internal parametric memory.
+I am performing research on the behavior of language models, especially when facing external knowledge
+that conflicts their internal memory or knowledge that is irrelevant from the given questions.
+I have a deep interest on enhancing the robustness and reliability of language models.
 <br/><br/>
 I have worked for 3 years as a software developer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
 asset exchange Upbit.
@@ -17,16 +18,20 @@ asset exchange Upbit.
 
 ## Research Interests
 
-- **Natural Language:** question answering, knowledge conflicts, enhancing the controllability and robustness of language models
+- **Natural Language**
+    - Question Answering Tasks
+    - Knowledge Aware Language Models
+    - Enhancing the controllability and robustness of language models
 
 ---
 
 ## News
+- **[Nov. 2024]** 🏅 I am thankful to receive the 'Korea & USA Advanced Field Student Exchange Scholarship'.
+- **[Nov. 2024]** 🇺🇸 I will be attending the University of Washington starting from March 2025, as an exchange student!
 - **[Jun. 2024]** 🔬 I started serving as a research intern at SNU Intelligent Data Systems Lab.
-- **[Feb. 2024]** 🏫 I am temporarily leaving Dunamu, to focus on my studies. Wish me good luck!
+- **[Feb. 2024]** 🏫 I am leaving Dunamu, to focus on my studies. Wish me good luck!
 - **[Nov. 2023]** 🏅 I am receiving the Semiconductor Specialized University Scholarship, hosted by Korea Institute for Advancement of Technology!
 - **[Mar. 2021]** 👨‍💻 I am starting to work for Dunamu (Stockplus Backend Team), as a full time software developer.
-- **[Mar. 2019]** 🐣 I have been admitted to Seoul National University!
 
 ---
 
@@ -42,21 +47,3 @@ asset exchange Upbit.
 
 {% include_relative _includes/research_experience.md %}
 <br/>
-
----
-
-## Honors & Awards
-- Academic Scholarship, Seoul National University (2020, 2023, 2024)
-- Semiconductor Specialized University Scholarship, [Korea Institute for Advancement of Technology](https://www.kiat.or.kr/eng/user/main.do){:target="_blank"} (2023)
-
----
-
-## Skills
-- Programming: Python, Ruby, Java, Kotlin, C, C++, MySQL, R, OCaml
-- Languages: Korean (Native), English (Fluent)
-
----
-
-## Test Scores
-- TOEFL: 102 (Jun. 2024)
-- TEPS: 474 (Mar. 2024)
