@@ -47,3 +47,10 @@ asset exchange Upbit.
 
 {% include_relative _includes/research_experience.md %}
 <br/>
+
+---
+
+## Fun Facts About Me
+- 10+ year Supporter of the Los Angeles Dodgers ⚾️ Go Dodgers!
+- Golf Enthusiast ⛳️
+- Lived in Vancouver 🇨🇦 & Los Angeles 🇺🇸 for a total of 3 years in childhood
