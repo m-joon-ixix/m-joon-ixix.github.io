@@ -14,6 +14,8 @@ These days, I am expanding my area of interest to the concept of RALMs and how t
 <br/><br/>
 Previously, I have worked for 3 years as a software developer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
 asset exchange Upbit. You can find out more about my professional experience in my CV.
+<br/><br/>
+***I am expecting to be a PhD applicant for 2026 Fall !***
 
 ---
 
