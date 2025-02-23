@@ -53,6 +53,11 @@ asset exchange Upbit. You can find out more about my professional experience in 
 
 ---
 
+{% include_relative _includes/publications.md %}
+<br/>
+
+---
+
 ## Fun Facts About Me
 - 10+ year supporter of the Los Angeles Dodgers ⚾️ So happy they won it all in 2024!
 - Golf enthusiast ⛳️ &ensp;/&ensp; Love to watch Formula 1 🏎️
