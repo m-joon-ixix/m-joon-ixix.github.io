@@ -1,7 +1,7 @@
 ## Research Experience
 
 <h3 style="margin:0 10px 0;"><a href="https://ids.snu.ac.kr/" target="_blank">Intelligent Data Systems Lab</a></h3>
-<h5 style="margin:0 10px 0;">Undergraduate Research Assistant &emsp;|&emsp; Jun. 2024 ~ Current</h5>
+<h5 style="margin:0 10px 0;">Undergraduate Research Assistant &emsp;|&emsp; Jun. 2024 ~ Feb. 2025</h5>
 <h5 style="margin:0 10px 0;">Advisor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU</h5>
 
 <br>
