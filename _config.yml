@@ -16,12 +16,12 @@ google_scholar:
 cv_link: assets/files/minjoon-cv.pdf
 github_link: https://github.com/m-joon-ixix
 linkedin: https://www.linkedin.com/in/minjoon-choi-b9b72a275/
-instagram: https://www.instagram.com/m.joon_ixix/
+twitter: https://x.com/mjoonixix
 affiliation_link: https://en.snu.ac.kr/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon-light" and "favicon_dark" are used for the light and dark modes, respectively.
-avatar: ./assets/img/minjoon.png
+avatar: ./assets/img/minjoon-seattle.png
 favicon: ./assets/img/favicon-light.png
 favicon_dark: ./assets/img/favicon-dark.png
 

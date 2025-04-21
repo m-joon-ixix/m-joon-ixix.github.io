@@ -4,13 +4,11 @@ layout: homepage
 
 ## About Me
 
-Nice to meet you! I am Minjoon (Miles) Choi, a senior undergraduate student majoring Computer Science & Engineering at Seoul
+Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at Seoul
 National University.
 <br/><br/>
-I am currently performing research on the behavior of language models, especially when facing external knowledge
-that conflicts their internal memory or knowledge that is irrelevant from given queries.
-I have a deep interest on enhancing the robustness and reliability of language models.
-These days, I am expanding my area of interest to the concept of RALMs and how to make use of data in the process of pursuing more reliable AI.
+I am interested in, and performing research on Large Language Models.
+Specifically, I have a deep interest on investigating the knowledge encoded in language models, and enhancing the robustness/fairness of these models.
 <br/><br/>
 Previously, I have worked for 3 years as a software developer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
 asset exchange Upbit. You can find out more about my professional experience in my CV.
@@ -21,16 +19,16 @@ asset exchange Upbit. You can find out more about my professional experience in 
 
 ## Research Interests
 
-- Knowledge Aware Language Models
+- Knowledge-aware language models
 - Enhancing the controllability and robustness of language models
-- Retrieval-Augmented Language Models
+- Mitigating social/geographical bias from language models
 - Efficient use of data towards trustful AI
 
 ---
 
 ## News
 - **[Mar. 2025]** 🇺🇸 I am excited to attend the University of Washington as an exchange student!
-- **[Feb. 2025]** 📝 My first author paper *"Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"* has been submitted and is under review.
+- **[Feb. 2025]** 📝 Our paper *"Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"* has been published!
 - **[Nov. 2024]** 🏅 I am thankful to receive the 'Korea & USA Advanced Field Student Exchange Scholarship'.
 - **[Jun. 2024]** 🔬 I started working as an undergraduate RA at SNU Intelligent Data Systems Lab.
 - **[Nov. 2023]** 🏅 I am receiving the Semiconductor Specialized University Scholarship, hosted by Korea Institute for Advancement of Technology!
