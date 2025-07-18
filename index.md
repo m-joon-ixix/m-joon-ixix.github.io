@@ -7,36 +7,39 @@ layout: homepage
 Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at Seoul
 National University.
 <br/><br/>
-I am interested in, and performing research on Large Language Models.
-Specifically, I have a deep interest on investigating the knowledge encoded in language models, and enhancing the robustness/fairness of these models.
+I am interested in, and performing research on Large Language Models and Vision-Language Models.
+Specifically, I have a deep interest on investigating the knowledge encoded in language models, and enhancing the reliability & robustness of these models.
 <br/><br/>
-Previously, I have worked for 3 years as a software developer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
-asset exchange Upbit. You can find out more about my professional experience in my CV.
+Previously, I have worked for 3 years as a software engineer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
+asset exchange Upbit.
 <br/><br/>
-***I am expecting to be a PhD applicant for 2026 Fall !***
+Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for detailed information!
+<br/><br/>
+✣ ***I will be applying for Ph.D. programs that start in Fall 2026.***
 
 ---
 
 ## Research Interests
 
-- Knowledge-aware language models
-- Enhancing the controllability and robustness of language models
-- Mitigating social/geographical bias from language models
-- Efficient use of data towards trustful AI
+- Knowledge-aware Large Language Models (LLMs)
+- Vision-Language Models (VLMs)
+- Enhancing the reliability and robustness of language models
+- Efficient use of data towards trustworthy, unbiased, fair AI models
 
 ---
 
 ## News
-- **[Mar. 2025]** 🇺🇸 I am excited to attend the University of Washington as an exchange student!
+- **[Jun. 2025]** 🔬 I am grateful to work as an RA at the UW iSchool, being advised by Professor Lucy Lu Wang.
+- **[Mar. 2025]** 🇺🇸 I am attending the University of Washington as an exchange student!
 - **[Feb. 2025]** 📝 Our paper *"Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"* has been published!
-- **[Nov. 2024]** 🏅 I am thankful to receive the 'Korea & USA Advanced Field Student Exchange Scholarship'.
+- **[Nov. 2024]** 🏅 I am thankful to receive the Korea & USA Advanced Field Student Exchange Scholarship.
 - **[Jun. 2024]** 🔬 I started working as an undergraduate RA at SNU Intelligent Data Systems Lab.
 - **[Nov. 2023]** 🏅 I am receiving the Semiconductor Specialized University Scholarship, hosted by Korea Institute for Advancement of Technology!
-- **[Mar. 2021]** 👨‍💻 I am starting to work for Dunamu (Stockplus Backend Team), as a full time software developer.
+- **[Mar. 2021]** 👨‍💻 I am starting to work for Dunamu (Stockplus Backend Team), as a full time software engineer.
 
 ---
 
-{% include_relative _includes/education.md %}
+<!-- {% include_relative _includes/education.md %}
 <br/>
 
 ---
@@ -49,7 +52,7 @@ asset exchange Upbit. You can find out more about my professional experience in 
 {% include_relative _includes/research_experience.md %}
 <br/>
 
----
+--- -->
 
 {% include_relative _includes/publications.md %}
 <br/>

@@ -2,10 +2,10 @@ main:
   - title: "Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"
     authors: Youna Kim, Minjoon Choi, Sungmin Cho, Hyuhng Joon Kim, Sang-goo Lee, Taeuk Kim
     conference_short: 
-    conference: arXiv preprint, 2025. Submitted to ARR 2025.
-    paper: https://arxiv.org/abs/2502.13648
-    pdf: https://arxiv.org/pdf/2502.13648
+    conference: arXiv preprint, 2025
+    paper: https://arxiv.org/abs/2502.13648v1
+    pdf: https://arxiv.org/pdf/2502.13648v1
     code: 
     bibtex: 
     image: ./assets/img/kim2025reliabilityparametricexternalknowledge.png
-    notes: Under Review
+    notes: Under Review (ARR)
