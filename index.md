@@ -23,15 +23,14 @@ Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for
 
 - Knowledge-aware Large Language Models (LLMs)
 - Vision-Language Models (VLMs)
-- Enhancing the reliability and robustness of language models
-- Efficient use of data towards trustworthy, unbiased, fair AI models
+- Trustworthy language models for high-stake applications
+- Efficient use of data towards reliable and unbiased AI models
 
 ---
 
 ## News
 - **[Jun. 2025]** 🔬 I am grateful to work as an RA at the UW iSchool, being advised by Professor Lucy Lu Wang.
 - **[Mar. 2025]** 🇺🇸 I am attending the University of Washington as an exchange student!
-- **[Feb. 2025]** 📝 Our paper *"Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"* has been published!
 - **[Nov. 2024]** 🏅 I am thankful to receive the Korea & USA Advanced Field Student Exchange Scholarship.
 - **[Jun. 2024]** 🔬 I started working as an undergraduate RA at SNU Intelligent Data Systems Lab.
 - **[Nov. 2023]** 🏅 I am receiving the Semiconductor Specialized University Scholarship, hosted by Korea Institute for Advancement of Technology!

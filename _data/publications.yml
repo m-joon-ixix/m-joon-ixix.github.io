@@ -8,4 +8,14 @@ main:
     code: 
     bibtex: 
     image: ./assets/img/kim2025reliabilityparametricexternalknowledge.png
-    notes: Under Review (ARR)
+    notes: Under Review
+  - title: "Towards the Use of Layer-to-Layer Stability Patterns for Early Accuracy Estimation in Question Answering"
+    authors: Minjoon Choi
+    conference_short: 
+    conference: ICCE-Asia 2025
+    paper: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/choi2025layertolayerstabilityforaccuracyestimation.png
+    notes: 
