@@ -4,18 +4,19 @@ layout: homepage
 
 ## About Me
 
-Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at Seoul
-National University.
+Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>.
 <br/><br/>
-I am interested in, and performing research on Large Language Models and Vision-Language Models.
-Specifically, I have a deep interest on investigating the knowledge encoded in language models, and enhancing the reliability & robustness of these models.
+I perform research to make language models (LLMs, VLMs) more reliable and trustworthy, since this objective stands out more in high-stake applications.
+<br/>
+Furthermore, I have a deep interest on investigating the knowledge encoded in language models; for example, the problem of "Knowledge Conflict".
+<br/>
+Recently, I am also interested in applying these multimodal language models to high-expertise domains such as finance, programming, and medical science.
 <br/><br/>
-Previously, I have worked for 3 years as a software engineer at Dunamu, a Fin-Tech corporation that developed Korea's #1 digital
-asset exchange Upbit.
+Previously, I have worked for 3 years as a software engineer at <a href="https://www.dunamu.com/en" target="_blank">Dunamu</a>, a Fin-Tech corporation that developed Korea's #1 digital asset exchange <a href="https://upbit.com/home" target="_blank">Upbit</a>.
 <br/><br/>
 Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for detailed information!
 <br/><br/>
-✣ ***I will be applying for Ph.D. programs that start in Fall 2026.***
+✣ ***I am applying for Ph.D. programs to start in Fall 2026.***
 
 ---
 
@@ -24,7 +25,7 @@ Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for
 - Knowledge-aware Large Language Models (LLMs)
 - Vision-Language Models (VLMs)
 - Trustworthy language models for high-stake applications
-- Efficient use of data towards reliable and unbiased AI models
+- Efficient use of data for better Human-AI alignment
 
 ---
 
@@ -58,7 +59,7 @@ Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for
 
 ---
 
-## Fun Facts About Me
-- 10+ year supporter of the Los Angeles Dodgers ⚾️ So happy they won it all in 2024!
+## Other Facts About Me
+- Proud to be a 10+ year supporter of the Los Angeles Dodgers ⚾️ So happy they are back-to-back champs!
 - Golf enthusiast ⛳️ &ensp;/&ensp; Love to watch Formula 1 🏎️
 - Lived in Vancouver 🇨🇦 & Los Angeles 🇺🇸 for a total of 3 years in childhood
