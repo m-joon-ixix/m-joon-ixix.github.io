@@ -1,4 +1,24 @@
 main:
+  - title: "RoParQ: Paraphrase-Aware Alignment of Large Language Models Towards Robustness to Paraphrased Questions"
+    authors: Minjoon Choi
+    conference_short: 
+    conference: arXiv preprint, 2025
+    paper: https://arxiv.org/abs/2511.21568
+    pdf: https://arxiv.org/pdf/2511.21568
+    code: https://github.com/m-joon-ixix/RoParQ
+    bibtex: 
+    image: ./assets/img/choi2025roparq-intro.png
+    notes: 
+  - title: "Towards the Use of Layer-to-Layer Stability Patterns for Early Accuracy Estimation in Question Answering"
+    authors: Minjoon Choi
+    conference_short: 
+    conference: ICCE-Asia 2025 Poster Presentation
+    paper: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/choi2025layertolayerstabilityforaccuracyestimation.png
+    notes: 
   - title: "Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"
     authors: Youna Kim, Minjoon Choi, Sungmin Cho, Hyuhng Joon Kim, Sang-goo Lee, Taeuk Kim
     conference_short: 
@@ -9,13 +29,3 @@ main:
     bibtex: 
     image: ./assets/img/kim2025reliabilityparametricexternalknowledge.png
     notes: Under Review
-  - title: "Towards the Use of Layer-to-Layer Stability Patterns for Early Accuracy Estimation in Question Answering"
-    authors: Minjoon Choi
-    conference_short: 
-    conference: ICCE-Asia 2025
-    paper: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
-    pdf: 
-    code: 
-    bibtex: 
-    image: ./assets/img/choi2025layertolayerstabilityforaccuracyestimation.png
-    notes: 

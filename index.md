@@ -5,27 +5,18 @@ layout: homepage
 ## About Me
 
 Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>.
-<br/><br/>
-I perform research to make language models (LLMs, VLMs) more reliable and trustworthy, since this objective stands out more in high-stake applications.
-<br/>
-Furthermore, I have a deep interest on investigating the knowledge encoded in language models; for example, the problem of "Knowledge Conflict".
-<br/>
+<br><br>
+I perform research to make language models (LLMs, VLMs) more reliable and trustworthy. I have a deep interest on investigating:<br>
+(1) how models handle knowledge in complex scenarios (e.g., knowledge conflicts)<br>
+(2) the knowledge boundaries of language models (i.e., "knowing what models know")<br>
+<br>
 Recently, I am also interested in applying these multimodal language models to high-expertise domains such as finance, programming, and medical science.
-<br/><br/>
+<br><br>
 Previously, I have worked for 3 years as a software engineer at <a href="https://www.dunamu.com/en" target="_blank">Dunamu</a>, a Fin-Tech corporation that developed Korea's #1 digital asset exchange <a href="https://upbit.com/home" target="_blank">Upbit</a>.
-<br/><br/>
+<br><br>
 Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for detailed information!
-<br/><br/>
+<br><br>
 ✣ ***I am applying for Ph.D. programs to start in Fall 2026.***
-
----
-
-## Research Interests
-
-- Knowledge-aware Large Language Models (LLMs)
-- Vision-Language Models (VLMs)
-- Trustworthy language models for high-stake applications
-- Efficient use of data for better Human-AI alignment
 
 ---
 
@@ -40,22 +31,22 @@ Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for
 ---
 
 <!-- {% include_relative _includes/education.md %}
-<br/>
+<br>
 
 ---
 
 {% include_relative _includes/professional_experience.md %}
-<br/>
+<br>
 
 ---
 
 {% include_relative _includes/research_experience.md %}
-<br/>
+<br>
 
 --- -->
 
 {% include_relative _includes/publications.md %}
-<br/>
+<br>
 
 ---
 
