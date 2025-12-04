@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>.
+Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>. I am grateful to be working closely with <a href="https://llwang.net" target="_blank">Prof. Lucy Lu Wang</a>.
 <br><br>
 I perform research to make language models (LLMs, VLMs) more reliable and trustworthy. I have a deep interest on investigating:<br>
 (1) how models handle knowledge in complex scenarios (e.g., knowledge conflicts)<br>
