@@ -1,4 +1,14 @@
 main:
+  - title: "Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation"
+    authors: Katelyn X. Mei, Yi-Li Hsu, Minjoon Choi, Zongwan Cao, Chenjun Xu, Bingbing Wen, Su Lin Blodgett, Lucy Lu Wang
+    conference_short: 
+    conference: 
+    paper: 
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/mei2026illusionsofthegold.png
+    notes: Under Review
   - title: "RoParQ: Paraphrase-Aware Alignment of Large Language Models Towards Robustness to Paraphrased Questions"
     authors: Minjoon Choi
     conference_short: 
