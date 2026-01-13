@@ -3,8 +3,8 @@ main:
     authors: Katelyn X. Mei, Yi-Li Hsu, Minjoon Choi, Zongwan Cao, Chenjun Xu, Bingbing Wen, Su Lin Blodgett, Lucy Lu Wang
     conference_short: 
     conference: 
-    paper: 
-    pdf: 
+    paper: ./assets/files/Illusions-of-the-Gold-Standard_ARR-Jan2026.pdf
+    pdf: ./assets/files/Illusions-of-the-Gold-Standard_ARR-Jan2026.pdf
     code: 
     bibtex: 
     image: ./assets/img/mei2026illusionsofthegold.png
@@ -24,7 +24,7 @@ main:
     conference_short: 
     conference: ICCE-Asia 2025 Poster Presentation
     paper: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
-    pdf: 
+    pdf: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
     code: 
     bibtex: 
     image: ./assets/img/choi2025layertolayerstabilityforaccuracyestimation.png
