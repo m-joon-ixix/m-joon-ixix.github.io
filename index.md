@@ -4,29 +4,27 @@ layout: homepage
 
 ## About Me
 
-Nice to meet you! I am Minjoon (Miles) Choi, an undergraduate student majoring Computer Science & Engineering at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>. I am grateful to be working closely with <a href="https://llwang.net" target="_blank">Prof. Lucy Lu Wang</a>.
+Greetings! I'm Minjoon (Miles) Choi, an incoming Computer Science Ph.D. student at the <a href="https://www.cs.umd.edu" target="_blank">University of Maryland, College Park</a>. 
+Prior to that, I did my undergrad at <a href="https://en.snu.ac.kr/index.html" target="_blank">Seoul National University</a>, being advised by <a href="https://llwang.net" target="_blank">Prof. Lucy Lu Wang</a> and <a href="https://ids.snu.ac.kr/members/M_Sang-goo_Lee.html" target="_blank">Prof. Sang-goo Lee</a>.
 <br><br>
-I perform research to make language models (LLMs, VLMs) more reliable and trustworthy. I have a deep interest on investigating:<br>
-(1) how models handle knowledge in complex scenarios (e.g., knowledge conflicts)<br>
-(2) the knowledge boundaries of language models (i.e., "knowing what models know")<br>
-<br>
-Recently, I am also interested in applying these multimodal language models to high-expertise domains such as finance, programming, and medical science.
-<br><br>
+I work on natural language processing, and my research focuses on making language models (LLMs, VLMs) reliable and trustworthy. I have a deep interest on:
+- How models handle knowledge in complex scenarios (e.g., knowledge conflicts, noisy contexts)
+- The knowledge boundaries of language models (i.e., "knowing what models know")
+- Evaluating, improving the factuality & coherence of long-context LLM outputs
+
 Previously, I have worked for 3 years as a software engineer at <a href="https://www.dunamu.com/en" target="_blank">Dunamu</a>, a Fin-Tech corporation that developed Korea's #1 digital asset exchange <a href="https://upbit.com/home" target="_blank">Upbit</a>.
 <br><br>
 Please check my <a href="assets/files/minjoon-cv.pdf" target="_blank">CV</a> for detailed information!
-<br><br>
-✣ ***I am applying for Ph.D. programs to start in Fall 2026.***
 
 ---
 
 ## News
-- **[Jun. 2025]** 🔬 I am grateful to work as an RA at the UW iSchool, being advised by Professor Lucy Lu Wang.
-- **[Mar. 2025]** 🇺🇸 I am attending the University of Washington as an exchange student!
-- **[Nov. 2024]** 🏅 I am thankful to receive the Korea & USA Advanced Field Student Exchange Scholarship.
-- **[Jun. 2024]** 🔬 I started working as an undergraduate RA at SNU Intelligent Data Systems Lab.
-- **[Nov. 2023]** 🏅 I am receiving the Semiconductor Specialized University Scholarship, hosted by Korea Institute for Advancement of Technology!
-- **[Mar. 2021]** 👨‍💻 I am starting to work for Dunamu (Stockplus Backend Team), as a full time software engineer.
+**[Mar. 2026]** I graduated from SNU, and will start my Ph.D. at UMD CS in August 2026!<br>
+**[Jun. 2025]** Started to work with Prof. Lucy Lu Wang at the UW iSchool. Grateful for this opportunity!<br>
+**[Mar. 2025]** I am attending the University of Washington as an exchange student! I am also thankful to receive the Korea & USA Advanced Field Student Exchange Scholarship.<br>
+**[Jun. 2024]** Started working as a research intern at SNU Intelligent Data Systems Lab.<br>
+**[Nov. 2023]** I am receiving the Semiconductor Specialized University Scholarship!<br>
+**[Mar. 2021]** Started working for Dunamu (Stockplus Backend Team) as a full-time SWE.<br>
 
 ---
 
