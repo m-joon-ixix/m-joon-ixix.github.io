@@ -17,16 +17,16 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.paper }}" target="_blank">{{ link.title }}</a></div>
-      <div class="author">
+      <div class="author" style="font-size:15px;">
         {% assign authors = link.authors | split: ',' %}
         {% for author in authors %}
-          {% assign trimmed_author = author | strip %}
-          {% if trimmed_author == "Minjoon Choi" %}
-            <em>{{ trimmed_author }}</em>
-          {% else %}
-            <small>{{ trimmed_author }}</small>
-          {% endif %}
-          {% unless forloop.last %}<small>, </small>{% endunless %}
+          {%- assign trimmed_author = author | strip -%}
+          {%- if trimmed_author == "Minjoon Choi" -%}
+            <b style="font-size:18px;">{{ trimmed_author }}</b>
+          {%- else -%}
+            {{ trimmed_author }}
+          {%- endif -%}
+          {% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
       <div class="periodical"><em>{{ link.conference }}</em>
