@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}CV | {{ site.name }}{% endblock %}
+
+{% block body %}
+<main class="page page-wide">
+  <header class="page-header cv-header">
+    <h1>Curriculum Vitae</h1>
+    <div class="cv-toolbar" role="toolbar" aria-label="CV viewer controls">
+      <button class="btn icon-btn" type="button" data-zoom="out" aria-label="Zoom out" title="Zoom out"><i class="fa-solid fa-minus"></i></button>
+      <span class="cv-zoom" aria-live="polite">100%</span>
+      <button class="btn icon-btn" type="button" data-zoom="in" aria-label="Zoom in" title="Zoom in"><i class="fa-solid fa-plus"></i></button>
+      <a class="btn" href="{{ site.cv_pdf | asset }}" download><i class="fa-solid fa-download"></i> Download</a>
+    </div>
+  </header>
+
+  <div class="cv-viewer" data-pdf="{{ site.cv_pdf | asset }}">
+    <p class="cv-status">Loading CV…</p>
+    <noscript>
+      <p class="cv-status">The CV viewer needs JavaScript. <a href="{{ site.cv_pdf | asset }}">Open the PDF directly.</a></p>
+    </noscript>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" integrity="sha512-q+4liFwdPC/bNdhUpZx6aXDx/h77yEQtn4I1slHydcbZK34nLaR3cAeYSJshoxIOq3mjEf7xJE8YWIUHMn+oCQ==" crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/cv-viewer.js') }}"></script>
+{% endblock %}

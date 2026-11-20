@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import publication_list %}
+
+{% block title %}Publications | {{ site.name }}{% endblock %}
+
+{% block body %}
+<main class="page">
+  <header class="page-header">
+    <h1>Publications</h1>
+    <p class="page-subtitle">
+      Newest first.
+      {% if site.scholar_url %}Also on <a href="{{ site.scholar_url }}" target="_blank" rel="noopener">Google Scholar</a>.{% endif %}
+    </p>
+  </header>
+  {{ publication_list(publications) }}
+</main>
+{% endblock %}

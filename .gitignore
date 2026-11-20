@@ -1,8 +1,6 @@
-_site
-.sass-cache
-Gemfile.lock
-*.gem
+build/
+__pycache__/
+*.pyc
 .DS_Store
-.jekyll-cache
-git-update.sh
 .idea
+git-update.sh

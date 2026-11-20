@@ -1,0 +1,3 @@
+- Proud to be a 10+ year supporter of the Los Angeles Dodgers ⚾️ So happy they are back-to-back champs!
+- Golf enthusiast ⛳️ &ensp;/&ensp; Love to watch Formula 1 🏎️
+- Lived in Vancouver 🇨🇦 & Los Angeles 🇺🇸 for a total of 3 years in childhood

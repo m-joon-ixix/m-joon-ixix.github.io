@@ -1,0 +1,68 @@
+# Newest first. Add `selected: true` to show a paper under "Selected Publications" on the home page.
+# In `authors`, append * to a name to mark equal contribution (adds an "* Equal contribution" note).
+main:
+  - title: "Frontier models need only one text to unmask its human or AI author"
+    authors: Atrey Desai*, Deniz Böloni-Turgut*, Ty Brassington*, Minjoon Choi*, Jenna Russell*, Rishanth Rajendhran*, Bradley Emi, Hila Gonen, Hal Daumé, John Wieting, Marzena Karpinska, Mohit Iyyer
+    conference_short:
+    conference: arXiv preprint, 2026
+    paper: https://arxiv.org/abs/2611.26216
+    pdf: https://arxiv.org/pdf/2611.26216
+    code: https://github.com/denizbt/unmasking_authors
+    blog: https://atreydesai.com/blog/who-wrote-this/
+    bibtex:
+    image: ./assets/img/desai2026unmasking-overview.png
+    notes:
+    selected: true
+  - title: "IdeaLens: Detecting AI Ideas in Long-form Writing"
+    authors: Rishanth Rajendhran, Minjoon Choi, Jenna Russell, Ramya Namuduri, Deniz Bölöni-Turgut, Marzena Karpinska, John Wieting, Mohit Iyyer
+    conference_short:
+    conference: arXiv preprint, 2026
+    paper: https://arxiv.org/abs/2610.06778
+    pdf: https://arxiv.org/pdf/2610.06778
+    code: https://github.com/RishanthRajendhran/IdeaLens
+    page: http://ideadetector.ai/
+    bibtex:
+    image: ./assets/img/rajendhran2026idealens-pipeline.png
+    notes:
+    selected: true
+  - title: "Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation"
+    authors: Katelyn X. Mei, Yi-Li Hsu, Minjoon Choi, Zongwan Cao, Chenjun Xu, Bingbing Wen, Su Lin Blodgett, Lucy Lu Wang
+    conference_short: 
+    conference: ACL 2026
+    paper: https://aclanthology.org/2026.acl-long.635/
+    pdf: https://aclanthology.org/2026.acl-long.635.pdf
+    code: 
+    bibtex: 
+    image: ./assets/img/mei2026illusionsofthegold.png
+    notes:
+  - title: "RoParQ: Paraphrase-Aware Alignment of Large Language Models Towards Robustness to Paraphrased Questions"
+    authors: Minjoon Choi
+    conference_short: 
+    conference: arXiv preprint, 2025
+    paper: https://arxiv.org/abs/2511.21568
+    pdf: https://arxiv.org/pdf/2511.21568
+    code: https://github.com/m-joon-ixix/RoParQ
+    bibtex: 
+    image: ./assets/img/choi2025roparq-intro.png
+    notes:
+    selected: true
+  - title: "Towards the Use of Layer-to-Layer Stability Patterns for Early Accuracy Estimation in Question Answering"
+    authors: Minjoon Choi
+    conference_short: 
+    conference: ICCE-Asia 2025 Poster Presentation
+    paper: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
+    pdf: ./assets/files/Layer-to-Layer Stability_ICCE-Asia_2025.pdf
+    code: 
+    bibtex: 
+    image: ./assets/img/choi2025layertolayerstabilityforaccuracyestimation.png
+    notes: 
+  - title: "Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs"
+    authors: Youna Kim, Minjoon Choi, Sungmin Cho, Hyuhng Joon Kim, Sang-goo Lee, Taeuk Kim
+    conference_short: 
+    conference: arXiv preprint, 2025
+    paper: https://arxiv.org/abs/2502.13648v1
+    pdf: https://arxiv.org/pdf/2502.13648v1
+    code: 
+    bibtex: 
+    image: ./assets/img/kim2025reliabilityparametricexternalknowledge.png
+    notes: 

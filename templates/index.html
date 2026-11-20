@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% from "_macros.html" import publication_list %}
+
+{% block body %}
+<div class="layout">
+  <aside class="sidebar">
+    <div class="profile">
+      <img class="avatar" src="{{ site.avatar | asset }}" alt="Photo of {{ site.name }}">
+      <h1 class="name">{{ site.name }}</h1>
+      <p class="position">{{ site.position }}</p>
+      <p class="affiliation">
+        <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>
+      </p>
+      {% if site.email %}
+      <p class="email"><i class="fa-regular fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      {% endif %}
+      <ul class="links">
+        {% for link in site.links %}
+        <li>
+          <a href="{{ link.url | asset }}" {% if link.url.startswith('http') %}target="_blank" rel="noopener"{% endif %} aria-label="{{ link.label }}" title="{{ link.label }}">
+            <i class="{{ link.icon }}"></i>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+
+  <main class="content">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="prose">{{ about }}</div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news">
+        {% for item in news %}
+        <li>
+          <span class="news-date">{{ item.date }}</span>
+          <span class="news-text">{{ item.text | markdown(inline=True) }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    {% if publications %}
+    <section id="selected-publications">
+      <h2 class="h2-with-link">
+        Selected Publications
+        <a class="see-all" href="{{ url_for('publications') }}">See all {{ total_publications }} <i class="fa-solid fa-arrow-right"></i></a>
+      </h2>
+      {{ publication_list(publications) }}
+    </section>
+    {% endif %}
+
+    <section id="facts">
+      <h2>Other Facts About Me</h2>
+      <div class="prose">{{ facts }}</div>
+    </section>
+  </main>
+</div>
+{% endblock %}

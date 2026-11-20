@@ -1,0 +1,39 @@
+{% macro publication_list(publications) %}
+<ol class="pubs">
+  {% for pub in publications %}
+  <li class="pub{% if not pub.image %} no-thumb{% endif %}">
+    {% if pub.image %}
+    <a class="pub-thumb" href="{{ (pub.paper or pub.pdf) | asset }}" target="_blank" rel="noopener" tabindex="-1">
+      <img src="{{ pub.image | asset }}" alt="" loading="lazy">
+    </a>
+    {% endif %}
+    <div class="pub-body">
+      <h3 class="pub-title">
+        {% if pub.paper %}<a href="{{ pub.paper | asset }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+      </h3>
+      <p class="pub-authors">
+        {%- for a in pub.author_list -%}
+          {%- if a.me %}<strong>{{ a.name }}</strong>{% else %}{{ a.name }}{% endif -%}
+          {%- if a.mark %}<sup class="author-mark">{{ a.mark }}</sup>{% endif -%}
+          {%- if not loop.last %}, {% endif -%}
+        {%- endfor -%}
+      </p>
+      {% if pub.equal_contribution %}<p class="pub-footnote">* Equal contribution</p>{% endif %}
+      <p class="pub-venue">
+        {% if pub.conference_short %}<span class="badge">{{ pub.conference_short }}</span>{% endif %}
+        <span>{{ pub.conference }}</span>
+      </p>
+      <div class="pub-links">
+        {% if pub.pdf %}<a class="btn" href="{{ pub.pdf | asset }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i> PDF</a>{% endif %}
+        {% if pub.code %}<a class="btn" href="{{ pub.code | asset }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+        {% if pub.page %}<a class="btn" href="{{ pub.page | asset }}" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Project Page</a>{% endif %}
+        {% if pub.blog %}<a class="btn" href="{{ pub.blog | asset }}" target="_blank" rel="noopener"><i class="fa-solid fa-pen-nib"></i> Blog</a>{% endif %}
+        {% if pub.bibtex %}<a class="btn" href="{{ pub.bibtex | asset }}" target="_blank" rel="noopener"><i class="fa-solid fa-quote-right"></i> BibTeX</a>{% endif %}
+        {% if pub.notes %}<span class="pub-note">{{ pub.notes }}</span>{% endif %}
+        {% if pub.others %}{{ pub.others | safe }}{% endif %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endmacro %}

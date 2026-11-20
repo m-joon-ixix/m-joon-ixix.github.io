@@ -1,108 +1,41 @@
-# The Minimal Light Theme
+# m-joon-ixix.github.io
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+Personal website of Minjoon Choi, built with [Flask](https://flask.palletsprojects.com) and
+frozen to static HTML with [Frozen-Flask](https://frozen-flask.readthedocs.io).
 
-*This is the source code of my homepage. I built this website based
-on [minimal](https://github.com/orderedlist/minimal).*
+## Editing content
 
-## Features
+| What | File |
+| --- | --- |
+| Name, position, email, avatar, social links, SEO, top menu bar | `content/site.yml` |
+| About Me | `content/about.md` |
+| News | `content/news.yml` (newest first) |
+| Publications (`selected: true` → shown on the home page) | `content/publications.yml` |
+| CV (shown on the CV page and downloadable) | replace `assets/files/minjoon-cv.pdf` (path set by `cv_pdf` in `content/site.yml`) |
+| Other Facts | `content/facts.md` |
+| Images / PDFs (CV, papers) | `assets/img/`, `assets/files/` |
+| Layout & style | `templates/` (`base.html` = menu bar + footer shared by all pages), `assets/css/style.css` |
 
-- Simple and elegant personal homepage theme
-- Jekyll theme, automatically deployed by GitHub Pages
-- Basic search engine optimization
-- Mobile friendly
-- Supporting Markdown
-- Supporting dark mode
+### Adding a new page
 
-## Project Architecture
+1. Add a route in `app.py`, e.g. `@app.route("/teaching/")` with a function `teaching()`.
+2. Create `templates/teaching.html` that starts with `{% extends "base.html" %}` and fills `{% block body %}`.
+3. Add `- label: Teaching` / `endpoint: teaching` under `nav:` in `content/site.yml`.
 
-```
-.
-├── _data                    
-|   └── publications.yml                      # the YAML file for publications
-├── _includes                    
-|   ├── publications.md                       # the Markdown file for publications
-|   └── services.md                           # the Markdown file for services
-├── _layouts                  
-|   └── homepage.html                         #  the html template for the homepage 
-├── _sass
-|   ├── minimal-light.scss                    #  this file will be compiled into a CSS file to control the style of the page              
-|   └── minimal-light-no-dark-mode.scss       #  this file is similar to minimal-light.scss with the dark mode disabled
-├── assets                                    #  some files
-├── html_source_file                          #  compiled HTML files
-├── .gitignore                                #  this file specifies intentionally untracked files that Git should ignore
-├── CNAME                                     #  the custom domain, will be used by GitHub page sevice
-├── Gemfile                                   #  a RubyGems related file
-├── LICENSE                                   #  the license file
-├── README.md                                 #  the readme file (English)
-├── README_de.md                              #  the readme file (German)
-├── README_zh_Hans.md                         #  the readme file (Simplified Chinese)
-├── README_zh_Hant.md                         #  the readme file (Traditional Chinese)
-├── _config.yml                               #  the Jekyll configuration file, including some options of the page  
-└── index.md                                  #  the content of the index page, using Markdown
-```
-
-## Getting Started
-
-### Using Locally with Jekyll
-
-First, install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/). The install instructions can
-be found here: <https://jekyllrb.com/docs/installation/#guides>
-
-Then, clone this repository:
+## Local development
 
 ```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
-cd minimal-light
+conda env create -f environment.yml   # first time only
+conda activate personal-website
+python app.py      # live preview at http://127.0.0.1:8000
+python freeze.py   # build static site into build/
 ```
 
-Install and run:
+After changing `requirements.txt`, update the env with
+`conda env update -f environment.yml --prune`.
 
-```bash
-bundle install
-bundle add webrick
-bundle exec jekyll server
-```
+## Deployment
 
-View the live page using `localhost`:
-<http://localhost:4000>. You can get the HTML files in `_site` folder.
-
-### Using the HTML version
-
-The compiled HTML files are available in the `html_source_file` folder. If you don't like Jekyll, you may directly edit
-and use the HTML version.
-
-## Customizing
-
-### Configuration variables
-
-The Minimal Light theme will respect the variables set in the site's `_config.yml`:
-
-### Edit `index.md`
-
-Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
-
-### Stylesheet
-
-If you'd like to add your own custom styles, you may edit `_sass/minimal-light.scss`.
-
-### Layouts
-
-If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.html`.
-
-## License
-
-This work is licensed under
-a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
-
-## Acknowledgements
-
-Our project uses the source code from the following repositories:
-
-* [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
-
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
-
-* [al-folio](https://github.com/alshedivat/al-folio)
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site and deploys it
+to GitHub Pages. In the repository settings, set **Pages → Build and deployment → Source** to
+**GitHub Actions**.

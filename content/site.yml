@@ -1,0 +1,50 @@
+# Basic information shown in the sidebar
+name: Minjoon Choi
+position: CS Ph.D. Student
+affiliation: University of Maryland
+affiliation_link: https://www.cs.umd.edu
+email: minjchoi@umd.edu
+avatar: assets/img/minjoon-grad.png
+favicon: assets/img/umd-logo.png
+
+# Search engine optimization (SEO)
+keywords: Minjoon Choi, University of Maryland, PhD Student, Seoul National University, Computer Science, Natural Language Processing
+description: This is the personal website of Minjoon Choi, a Computer Science Ph.D. student at the University of Maryland.
+canonical: https://m-joon-ixix.github.io
+
+# Google Analytics measurement ID (G-XXXXXXXXXX). Leave empty to disable.
+google_analytics:
+
+# Menu bar at the top of every page, in order.
+# `endpoint` is a page of this site (a function name in app.py); `url` is a file or external link.
+nav:
+  - label: Home
+    endpoint: index
+  - label: Publications
+    endpoint: publications
+  - label: CV
+    endpoint: cv
+
+# The CV PDF shown on the CV page
+cv_pdf: assets/files/minjoon-cv.pdf
+
+# Shown on the Publications page ("Also on Google Scholar")
+scholar_url: https://scholar.google.com/citations?hl=en&user=19HpehsAAAAJ&view_op=list_works&sortby=pubdate
+
+# Name bolded in publication author lists
+highlight_author: Minjoon Choi
+
+# Links shown as icons in the sidebar, in this order (remove an entry to hide it)
+links:
+  - label: Google Scholar
+    icon: ai ai-google-scholar
+    url: https://scholar.google.com/citations?hl=en&user=19HpehsAAAAJ&view_op=list_works&sortby=pubdate
+  - label: X
+    icon: fa-brands fa-x-twitter
+    url: https://x.com/mjoonixix
+  - label: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com/m-joon-ixix
+  - label: LinkedIn
+    icon: fa-brands fa-linkedin
+    url: https://www.linkedin.com/in/minjoon-choi-b9b72a275/
