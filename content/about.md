@@ -3,8 +3,8 @@ Prior to that, I did my undergrad at [Seoul National University](https://en.snu.
 
 I work on NLP problems, and my research focuses on:
 
-- **Long-form Generation Evaluation:** Developing benchmarks/frameworks to assess extended LLM outputs
-- **AI Text Detection:** Detecting AI-authored text in open-ended generation, focusing on the origin of ideas
+- **AI Text Detection & Authorship Attribution:** Identifying who wrote a text (human or AI, which model, which person), including cases of mixed authorship
+- **Long-form Writing Evaluation:** Developing benchmarks/frameworks to assess long-form LLM writing
 - **Factuality & Reliability of LLMs:** Mitigating hallucinations and understanding model knowledge boundaries (“knowing what models know”)
 
 Previously, I have worked for 3 years as a software engineer at [Dunamu](https://www.dunamu.com/en), a Fin-Tech corporation that developed Korea's #1 digital asset exchange [Upbit](https://upbit.com/home).

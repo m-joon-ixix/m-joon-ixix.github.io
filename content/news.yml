@@ -1,13 +1,15 @@
 # Newest first. `text` supports Markdown.
+- date: Nov. 2026
+  text: "We released our new [preprint](https://arxiv.org/abs/2611.26216) on \"Frontier models unmasking authors of text.\""
+- date: Oct. 2026
+  text: "[IdeaLens](https://arxiv.org/abs/2610.06778) has been released, and has appeared in [Nature](https://www.nature.com/articles/d41586-026-03247-0)! Also check out our [demo](http://ideadetector.ai) :)"
 - date: Aug. 2026
-  text: I started my Ph.D. at UMD CS!
+  text: I started my Ph.D. at UMD CS, excited for this long journey ahead!
 - date: Feb. 2026
-  text: I graduated Summa Cum Laude with my B.S. from SNU.
+  text: I finally graduated Summa Cum Laude with my B.S. from SNU!
 - date: Jun. 2025
-  text: Started to work with Prof. Lucy Lu Wang at the UW iSchool. Grateful for this opportunity!
-- date: Mar. 2025
-  text: I am attending the University of Washington as an exchange student! I am also thankful to receive the Korea & USA Advanced Field Student Exchange Scholarship.
+  text: Started working as an undergrad intern at the UW iSchool. Grateful for this opportunity!
 - date: Jun. 2024
   text: Started working as a research intern at SNU Intelligent Data Systems Lab.
 - date: Mar. 2021
-  text: Started working for Dunamu (Stockplus Backend Team) as a full-time SWE.
+  text: Started my full-time SWE position at Dunamu, Stockplus Backend Team.
