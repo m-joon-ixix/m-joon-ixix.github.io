@@ -186,6 +186,18 @@ h2 {
 .prose li::marker { color: var(--accent); }
 
 /* News */
+.news-scroll {
+  max-height: 12rem;
+  overflow-y: auto;
+  padding-inline-end: .5rem;
+}
+.news-scroll::-webkit-scrollbar { width: 10px; }
+.news-scroll::-webkit-scrollbar-track { background: var(--border); border-radius: 999px; }
+.news-scroll::-webkit-scrollbar-thumb { background: var(--muted); border-radius: 999px; }
+@supports not selector(::-webkit-scrollbar) {
+  .news-scroll { scrollbar-color: var(--muted) var(--border); }
+}
+.news-scroll:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .news { list-style: none; padding: 0; margin: 0; }
 .news li {
   display: grid;
@@ -195,6 +207,7 @@ h2 {
   border-bottom: 1px dashed var(--border);
 }
 .news li:last-child { border-bottom: 0; }
+.news-text { overflow-wrap: anywhere; }
 .news-date {
   font-size: .82rem;
   font-weight: 600;

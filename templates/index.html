@@ -33,15 +33,17 @@
     </section>
 
     <section id="news">
-      <h2>News</h2>
-      <ul class="news">
-        {% for item in news %}
-        <li>
-          <span class="news-date">{{ item.date }}</span>
-          <span class="news-text">{{ item.text | markdown(inline=True) }}</span>
-        </li>
-        {% endfor %}
-      </ul>
+      <h2 id="news-heading">News</h2>
+      <div class="news-scroll" role="region" aria-labelledby="news-heading" tabindex="0">
+        <ul class="news">
+          {% for item in news %}
+          <li>
+            <span class="news-date">{{ item.date }}</span>
+            <span class="news-text">{{ item.text | markdown(inline=True) }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </section>
 
     {% if publications %}
